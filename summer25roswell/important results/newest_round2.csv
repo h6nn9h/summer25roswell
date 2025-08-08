@@ -1,0 +1,558 @@
+row,column_idx,truth_value,llm_value,mismatch_value,llm_category
+5,2,snrna-seq,rna-seq,6,6
+6,2,scrna-seq,rna-seq,6,6
+7,2,microarray,cgh,1,6
+8,2,microarray,cgh,1,6
+9,2,scrna-seq; vdj-seq,scrna-seq,5,5
+10,2,scrna-seq; vdj-seq,sctcr-seq,6,6
+10,4,kidney,"kidney, renal cell carcinoma",1,5
+14,4,spleen,bone marrow,6,6
+15,4,prostate,no,2,6
+16,4,prostate,no,2,6
+17,2,scrna-seq,rna-seq,1,6
+18,2,scrna-seq,rna-seq,1,6
+19,4,prostate cancer,prostate,1,3
+20,4,prostate cancer,prostate,1,3
+29,4,prostate,no,1,6
+30,4,prostate,no,1,6
+35,4,prostate carcinoma,prostate,3,3
+36,4,prostate carcinoma,prostate,3,3
+37,4,prostate carcinoma,prostate,3,3
+38,4,prostate carcinoma,prostate,3,3
+39,4,breast,breast tumor,2,4
+40,4,breast,breast tumor,2,4
+41,4,kidney,no,4,6
+41,5,hek cells,hek-ter,4,4
+42,4,kidney,no,4,6
+42,5,hek cells,hek-ter,4,4
+43,4,blood,bone marrow,6,6
+44,4,blood,bone marrow,6,6
+45,4,bone marrow,bone marrow microvascular niches (mvns),4,4
+46,4,bone marrow,bone marrow microvascular niches (mvns),4,4
+49,4,melanoma tumor sample/ skin?,melanoma single cell,3,3
+50,4,melanoma tumor sample/ skin?,melanoma single cell,3,3
+51,4,prostate,no,4,6
+52,4,prostate,no,4,6
+53,4,prostate,no,4,6
+54,4,prostate,no,4,6
+55,4,lung,no,1,6
+56,4,lung,no,1,6
+56,5,h1651,h1650,6,6
+57,4,lymph nodes,draining lymph node,4,2
+58,4,lymph nodes,draining lymph node,4,2
+59,4,blood/ bone marrow,bone marrow,5,5
+59,5,hoxb8 cell,hoxb8,2,4
+60,4,blood/ bone marrow,bone marrow,5,5
+60,5,hoxb8 cell,hoxb8,2,4
+61,4,blood/ bone marrow,bone marrow,5,5
+61,5,hoxb8 cell,hoxb8,6,4
+62,4,blood/ bone marrow,bone marrow,5,5
+62,5,hoxb8 cell,hoxb8,6,4
+70,5,d459,d458,6,6
+72,4,tumor inflitrating lymphocytes,blood,6,6
+74,4,tumor inflitrating lymphocytes,blood,6,6
+77,4,prostate,no,4,6
+78,4,prostate,no,4,6
+79,4,abdomen,abdominal wall tissue,4,4
+80,2,scrna-seq,rna-seq,1,6
+80,4,splenocytes and lymph nodes,lymphocytes,6,6
+81,2,scrna-seq,rna-seq,1,6
+81,4,splenocytes and lymph nodes,lymphocytes,6,6
+82,4,prostate,no,1,6
+82,5,myc-cap cells,myc-cap,2,2
+83,4,prostate,no,1,6
+83,5,myc-cap cells,myc-cap,2,2
+84,4,prostate,no,1,6
+85,4,prostate,no,1,6
+85,5,tramp-c3,tramp-c2,1,6
+86,4,prostate,no,1,6
+86,5,myc-cap cells,myc-cap,2,2
+87,4,prostate,no,1,6
+87,5,myc-cap cells,myc-cap,2,2
+88,4,prostate,pca cell line,1,6
+88,5,myc-cap cells,myc-cap,2,2
+89,4,prostate,pca cell line,1,6
+89,5,myc-cap cells,myc-cap,2,2
+90,4,prostate,no,1,6
+90,5,lncap/ar,lncap/ar cells,1,2
+91,4,prostate,no,1,6
+91,5,lncap/ar,lncap/ar cells,1,2
+92,4,lung,no,1,6
+92,5,kp cells,kp lung tumor cells,2,2
+93,4,lung,no,1,6
+93,5,kp cells,kp lung tumor cells,2,2
+94,3,mus musculus; synthetic construct,mus musculus,5,5
+94,4,subcutaneously injected allograft tumor,no,3,6
+94,5,,no,6,6
+95,3,mus musculus; synthetic construct,mus musculus,5,5
+95,4,subcutaneously injected allograft tumor,subcutaneously injected tumor,3,2
+95,5,,no,6,6
+96,4,prostate,no,1,6
+96,5,lncap/ar,lncap/ar cells,1,2
+97,4,prostate,no,4,6
+97,5,lncap/ar,lncap/ar cells,1,2
+98,2,shrna-seq,crispr-seq,1,6
+98,3,synthetic construct; homo sapiens and murine mouse model,homo sapiens,5,3
+98,4,prostate,no,1,6
+98,5,lncap/ar cells utilized to induce tumor in scid mice,lncap/ar,3,2
+99,2,shrna-seq,crispr-seq,1,6
+99,3,synthetic construct; homo sapiens and murine mouse model,homo sapiens,5,3
+99,4,prostate ,no,1,6
+99,5,lncap/ar cells utilized to induce tumor in scid mice,lncap/ar,3,2
+100,4,prostate,primary mouse prostate organoid culture,4,4
+100,5,no. primary mouse prostate organoid culture,no,3,2
+101,4,prostate,primary mouse prostate organoid culture,4,4
+101,5,no. primary mouse prostate organoid culture,no,3,2
+104,4,prostate,no,1,6
+104,5,no/ xenograft,pc3,6,6
+110,5,d458 cells,d458,2,2
+111,5,d425 cells,d425,2,2
+112,5,molm13 cells,molm13,2,2
+113,5,molm13 cells,molm13,2,2
+114,5,molm13 cells,molm13,2,2
+115,5,molm13 cells,molm13,2,2
+116,2,ribo-seq,ribosome profiling,1,2
+117,2,ribo-seq,ribosome profiling,1,2
+120,4,tumor infiltrating lymphocyte,blood,1,6
+121,4,tumor infiltrating lymphocyte,blood,1,6
+126,4,breast carcinoma,no,3,6
+127,4,breast carcinoma,no,3,6
+128,4,blood/plasma cell,bone marrow,6,6
+129,4,multiple myeloma,bone marrow,6,6
+133,2,scrna-seq,rna-seq,1,6
+134,4,brain,hippocampus,4,4
+135,4,brain,hippocampus,4,4
+136,4,lung,lung tumor,4,3
+136,5,no,kld-rna,1,6
+137,4,lung,lung tumor,4,3
+138,4,lung,lung tumor,4,3
+139,4,lung,lung tumor,4,3
+140,5,molm13 cells,molm13,2,2
+148,4,lung,in vitro cultured cell line,6,6
+148,5,kp cells,no,1,6
+149,4,lung,no,1,6
+149,5,h2009 cells,h2009,2,2
+150,4,prostate,no,6,6
+150,5,lncap-ai (androgen independent),lncap-ai,2,2
+151,4,prostate,no,6,6
+151,5,du145 cells,du145,2,2
+152,4,prostate,normal prostate,6,4
+153,4,prostate,normal prostate,6,4
+154,4,prostate,no,1,6
+154,5,pc3 cells,pc3,2,2
+155,5,pc3 cells,pc3,2,2
+156,4,prostate,prostate epithelium-derived cells,4,4
+157,4,prostate,prostate epithelium-derived cells,4,4
+158,4,skin,melanoma allograft,1,4
+158,5,m3 cell line derived mouse allograft,m3 cell line,6,2
+159,4,skin,melanoma allograft,1,4
+159,5,m3 cell line derived mouse allograft,m3 cell line,3,2
+166,4,ovary,ovarian cancer cell line (ovcar3),4,4
+166,5,ocvar3 cells,ovcar3,2,2
+167,5,ocvar3 cells,ovcar3,2,2
+170,4,blood,monocyte-derived macrophages,6,6
+171,4,blood,monocyte-derived macrophages,6,6
+172,4,breast,breast tumor,4,4
+173,4,breast,breast tumor,4,4
+174,4,lymph nodes,draining ln,4,2
+175,4,lymph nodes,lymph node,1,2
+177,5,lncap,lncap-rb1/tp53 double knockout human prostate tumor cell line,4,4
+179,4,large intestine,colon,6,2
+182,4,bone marrow aspirates,bone marrow,3,3
+183,4,bone marrow aspirates,bone marrow,3,3
+184,2,plumage,5’ utr mutational analysis,6,6
+184,4,kidney,"kidney, embryonic",1,5
+184,5,hek293 t,hek293t,2,2
+185,2,plumage,5’ utr mutational analysis,6,6
+185,4,kidney,"kidney, embryonic",1,5
+185,5,hek293 t,hek293t,2,2
+186,4,esophagus,adjacent normal esophageal tissue,4,4
+187,4,esophagus,esophageal squamouse carcinoma,4,4
+188,4,esophagus,esophageal squamouse carcinoma,4,4
+189,4,esophagus,adjacent normal esophageal tissue,4,4
+190,2,cite-seq,sctcr-seq,6,6
+191,2,cite-seq,sctcr-seq,6,6
+192,4,umbilical vein endothelium,blood vessel,6,3
+193,4,umbilical vein endothelium,blood vessel,6,3
+194,4,unclear,cd8+cd3+ tumor infiltrating cells,6,6
+195,4,unclear,cd8+cd3+ tumor infiltrating cells,6,6
+196,4,esophagus,immortalized normal esophageal epithelium,4,4
+197,4,esophagus,esophageal squamous carcinoma,4,4
+197,5,ec-109,no,6,6
+198,4,umbilical vein endothelium,blood vessel,6,3
+199,4,umbilical vein endothelium,blood vessel,6,3
+202,4,mouth/ oral cavity,tumor,6,3
+202,5,moc1,no,6,6
+203,4,mouth/ oral cavity,tumor,6,3
+203,5,moc1,no,6,6
+210,4,sub cutaneous tumors (xenograft),cd45+ tumor infiltrating cells,6,6
+211,4,sub cutaneous tumors (xenograft),cd45+ tumor infiltrating cells,6,6
+214,4,breast,breast tumor,4,4
+215,4,breast,breast tumor,4,4
+216,2,"scbcr-seq
+          ",scrna-seq,6,6
+217,2,"scbcr-seq
+          ",scrna-seq,6,6
+218,2,scrna-seq,rna-seq,1,6
+219,2,scrna-seq,rna-seq,1,6
+223,5,oci-aml2 cells,oci-aml2,2,2
+224,5,oci-aml2 cells,oci-aml2,2,2
+225,4,lung,no,4,6
+225,5,hci- h69,nci-h69,3,6
+226,4,lung,no,4,6
+227,2,microarray,methylation profiling by array,1,2
+228,2,microarray,methylation profiling by array,1,2
+229,2,clint-seq  (mrna sequencing via crosslinker regulated intracellular phenotype),clint-seq,6,2
+230,2,clint-seq  (mrna sequencing via crosslinker regulated intracellular phenotype),clint-seq,6,2
+233,4,pancreas,no,4,6
+234,4,pancreas,no,4,6
+235,2,scrna-seq,target site sequencing,1,6
+236,2,scrna-seq,target site capture,1,6
+247,4,soft tissue/ bone,no,6,6
+248,4,soft tissue/ bone,soft-tissue sarcoma cells,4,4
+249,4,soft tissue/ bone,immune-enriched cells from 8 mouse subcutaneous tumors,6,6
+250,4,soft tissue/ bone,immune-enriched cells from 8 mouse subcutaneous tumors,6,6
+253,4,breast,no,1,6
+254,4,breast,no,1,6
+257,4,intestine,colon,4,2
+258,4,intestine,proximal small intestine,4,4
+259,4,intestine,no,4,6
+260,4,intestine,no,4,6
+262,4,prostate,no,1,6
+265,4,prostate,no,1,6
+266,4,prostate,no,1,6
+267,4,prostate,no,1,6
+268,4,prostate,no,1,6
+269,4,prostate,no,1,6
+270,4,prostate,no,1,6
+271,2,rna-seq/ plumage,rna-seq,5,5
+275,4,lymph nodes,mantle cell lymphoma patient derived xenograft,6,4
+275,5,no,mcl96069,6,6
+276,4,lymph nodes,mantle cell lymphoma patient derived xenograft,6,4
+276,5,no,mcl96069,6,6
+277,4,prostate,prostate epithelial cell line,4,4
+278,4,prostate,prostate epithelial cell line,4,4
+279,2,bisulfite-seq/ methyl-capture,methyl capture,5,2
+279,4,prostate,no,4,6
+280,2,bisulfite-seq/ methyl-capture,methyl capture,5,2
+280,4,prostate,no,4,6
+281,4,prostate,no,4,6
+282,4,prostate,no,4,6
+283,2,exome-seq,5’ utr capture-seq,6,6
+283,5,pdx derived from lucap series 23 cells,no,6,6
+284,2,exome-seq,5’ utr capture-seq,6,6
+284,5,pdx derived from lucap series 23 cells,no,6,6
+287,4,intestine,intestinal tissue,2,2
+288,4,intestine,intestinal tissue,2,2
+289,2,crispr-seq,crispr screen,1,6
+290,2,crispr-seq,crispr screen,1,6
+292,5,387,cw 387,2,2
+297,4,blood,whole blood,4,2
+298,4,blood,whole blood,4,2
+299,2,microarray,epic,1,6
+299,4,prostate,no,1,6
+300,2,microarray,epic,1,6
+300,4,prostate,genomic dna from cell line,1,6
+301,2,microarray,epic,1,6
+301,4,prostate xenograft,genomic dna from xenograft tissue,3,6
+301,5,primary xenograft cwr22,cwr22,3,3
+302,2,microarray,methylation profiling by array,1,2
+302,4,prostate xenograft,genomic dna from xenograft tissue,3,6
+302,5,primary xenograft cwr22,cwr22,3,3
+303,4,prostate xenograft,cwr22 xenograft,3,2
+303,5,primary xenograft cwr22,no,3,6
+304,4,prostate xenograft,cwr22 xenograft,3,2
+304,5,primary xenograft cwr22,no,3,6
+305,4,peripheral nervous system,no,4,6
+305,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3,3
+306,4,peripheral nervous system,no,4,6
+306,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3,3
+307,4,peripheral nervous system,no,4,6
+307,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3,3
+308,4,peripheral nervous system,no,4,6
+308,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3,3
+309,2,bisulfite-seq,methyl-seq,1,2
+309,4,peripheral nervous system,no,4,6
+309,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3,3
+310,2,bisulfite-seq,methyl-seq,1,2
+310,4,peripheral nervous system,no,4,6
+310,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3,3
+311,4,lung,primary lung tumor,4,2
+312,4,lung,primary lung tumor,4,2
+313,4,prostate,no,1,6
+313,5,lncap-c42 (ar therapy resistant),lncap-c42,3,2
+314,4,prostate,no,1,6
+314,5,lncap-c42 (ar therapy resistant),lncap-c42,3,2
+315,4,prostate,no,1,6
+315,5,lncap-c42 (ar therapy resistant),lncap-c42,3,2
+316,4,prostate,no,1,6
+316,5,lncap-c42 (ar therapy resistant),lncap,3,4
+317,4,blood/ spleen,blood,5,5
+318,4,breast,no,1,6
+319,4,prostate,no,1,6
+320,4,skin,merkel cell carcinoma,1,4
+320,5,waga cells,waga,2,2
+321,4,skin,merkel cell carcinoma,1,4
+321,5,waga cells,waga,2,2
+322,4,skin,merkel cell carcinoma,1,4
+323,4,skin,merkel cell carcinoma,1,4
+324,4,skin,merkel cell carcinoma,1,4
+325,4,skin,merkel cell carcinoma,1,4
+328,4,pancreas,pancrease,4,2
+328,5,aspc1,aspc-1,2,2
+329,4,pancreas,pancrease,4,2
+329,5,aspc1,aspc-1,2,2
+330,2,rna-seq; scrna-seq; atac-seq; cut&tag; cut&run,chip-seq,6,6
+330,5,kasumi-1 cells,kasumi-1,2,2
+331,2,rna-seq; scrna-seq; atac-seq; cut&tag; cut&run,rna-seq,5,5
+331,5,no,14-00613,6,6
+334,4,prostate,brain,1,6
+335,4,prostate,brain,1,6
+336,4,small intestine,small intestinal stromal cells,1,4
+337,4,colon/ large intestine,colon,5,2
+338,4,colon/ large intestine,colonic stromal cells,5,4
+339,4,colon/ large intestine,colon,5,2
+345,2,rna-seq;,rna-seq,2,2
+346,4,blood,bone marrow,1,6
+346,5,kasumi-1 cells,kasumi-1,2,2
+347,5,kasumi-1 cells,kasumi-1,2,2
+348,4,bladder xenograft,bladder,4,3
+348,5,no,t24,6,6
+349,4,bladder xenograft,bladder,3,3
+349,5,no,t24,6,6
+350,4,lung,no,1,6
+351,4,lung,no,1,6
+352,4,intestine,intestinal stem cells and progenitor cells,4,4
+353,4,intestine,intestinal stem cells and progenitor cells,4,4
+355,2,scrna-seq; scatac-seq,scrna-seq,5,5
+356,4,prostate/ bone metastasis,no,5,6
+356,5,pc3e (pc3 cells sorted for e-cadherin-positive cells ),pc3e,1,2
+360,5,no/ induced pluripotent cells,no,5,6
+361,5,no/ induced pluripotent cells,no,5,6
+364,4,prostate xenograft,prostate tumor,4,2
+365,4,prostate xenograft,prostate,4,3
+368,2,cite-seq,sctcr-seq,6,6
+369,2,cite-seq,sctcr-seq,6,6
+374,4,prostate,no,4,6
+375,4,prostate,no,4,6
+378,4,blood,peripheral blood,4,2
+379,4,blood,peripheral blood,4,2
+382,4,prostate,no,1,6
+383,4,prostate,no,1,6
+384,4,prostate,no,1,6
+385,4,prostate,no,1,6
+386,4,prostate,no,4,6
+387,4,prostate,no,4,6
+392,4,bladder,bladder tumor,4,4
+393,4,bladder,bladder tumor,4,4
+396,4,spleen,no,6,6
+397,4,spleen,no,3,6
+404,5,mouse lung squamous cell carcinoma cell line,p2d,2,6
+405,5,mouse lung squamous cell carcinoma cell line,lung squamous cell carcinoma cell line,2,2
+408,4,breast,no,1,6
+409,4,breast,no,1,6
+410,5,no,lucap 78,6,6
+411,5,no,lucap 77,6,6
+412,4,breast,no,1,6
+413,4,breast,no,1,6
+414,4,pancrease,no,4,6
+415,4,pancrease,no,4,6
+416,4,human glioblastoma pdx models,brain,3,3
+417,4,human glioblastoma pdx models,brain,3,3
+418,4,liver,liver tumor biopsy,4,4
+419,2,cite-seq,scrna-seq,6,6
+421,4,subcutaneous tumor tissue (flank),tumor,3,3
+422,4,subcutaneous tumor tissue (flank),tumor,3,3
+433,4,prostate,gemm,6,6
+434,4,prostate,metastatic crpc,1,4
+435,4,subcutaneous tumor,s.c. tumor,2,2
+435,5,mc38,no,6,6
+436,4,subcutaneous tumor,s.c. tumor,2,2
+436,5,mc38,no,6,6
+437,4,blood,peripheral blood mononuclear cells,4,4
+438,4,blood,peripheral blood mononuclear cells,4,4
+439,4,blood / bone marrow,blood,5,5
+440,4,blood / bone marrow,blood,5,5
+441,4,breast,no,1,6
+442,4,breast,no,1,6
+443,4,breast,no,1,6
+444,4,breast,no,1,6
+447,4,breast,no,1,6
+448,4,breast,no,1,6
+453,2,tequila-seq,rna-seq,1,6
+454,2,tequila-seq,rna-seq,1,6
+454,4,breast,breast cancer,4,4
+463,4,blood,whole blood,4,2
+464,4,blood,whole blood,4,2
+465,2,crispr-cas9 sgrna screen,crispr-seq,3,6
+467,4,breast,breast cancer cells,4,4
+469,2,scbs-seq,scbisulfite-seq,1,2
+470,2,scbs-seq,scbisulfite-seq,1,2
+475,4,peritoneal fluid,blood,6,6
+476,4,peritoneal fluid,blood,6,6
+477,4,prostate,no,1,6
+478,4,prostate,no,4,6
+478,5,lncap-n-myc,lncap,1,4
+479,2,microarray,methylation profiling by array,1,2
+480,2,microarray,methylation profiling by array,1,2
+481,4,bone marrow,blood,1,6
+482,4,bone marrow,blood,1,6
+483,4,breast,breast tumor,1,4
+483,5,pymt,no,6,6
+484,4,breast,breast tumor,1,4
+484,5,pymt,no,6,6
+485,2,cite-seq,sctcr-seq,6,6
+485,4,brain,pediatric brain tumor,1,4
+486,2,cite-seq,sctcr-seq,6,6
+486,4,brain,pediatric brain tumor,1,4
+487,4,breast,epithelial breast,1,4
+488,4,breast,epithelial breast,1,4
+491,4,in vivo tumor-derived akp organoid,no,1,6
+491,5,no,in vivo tumor-derived akp organoid,1,6
+492,4,in vivo tumor-derived akp organoid,no,1,6
+492,5,no,in vivo tumor-derived akp organoid,1,6
+493,4,colon tumor,colon,3,3
+494,4,colon tumor,colon,3,3
+497,4,prostate ,no,1,6
+498,4,prostate ,no,4,6
+499,4,kidney,renal cell carcinoma,4,4
+500,4,kidney,renal cell carcinoma,4,4
+502,4,kidney,renal cell carcinoma,4,4
+505,4,tubular adenoma,colon,3,3
+506,4,tubular adenoma,colon,3,3
+509,4,bone marrow,bone marrow cells,2,4
+510,4,bone marrow,bone marrow cells,2,4
+511,4,tongue epithelium,no,6,6
+512,4,tongue epithelium,no,6,6
+513,4,bone marrow,bone marrow cells,1,4
+514,4,bone marrow,bone marrow cells,1,4
+521,4,breast,breast tumor,4,4
+522,4,breast,breast tumor,4,4
+523,4,breast,mammary fibroblasts,1,6
+523,5,primary mouse mammary fibroblasts ,primary mouse mammary fibroblasts line,2,2
+524,4,breast,mammary fibroblasts,1,6
+524,5,primary mouse mammary fibroblasts,primary mouse mammary fibroblasts line,2,2
+525,4,breast,mammary fat pad,4,6
+526,4,breast,mammary fat pad,4,6
+533,4,skin,solid tumor,6,6
+534,4,skin,solid tumors,6,3
+535,4,skin,solid tumors,6,3
+536,2, crispr screen,crispr-seq,6,2
+536,5,trametinib resistant molm13,molm-13,3,2
+537,2,crispr screen,crispr-seq,6,2
+537,5,trametinib resistant molm13,molm-13,3,2
+538,4,prostate,no,1,6
+539,4,prostate,no,1,6
+540,4,bone marrow,bone marrow plasma cells,4,4
+541,4,bone marrow,bone marrow plasma cells,4,4
+542,4,bone marrow,primary dendritic cells,6,6
+543,4,bone marrow,primary dendritic cells,6,6
+544,4,bone marrow,primary dendritic cells,6,6
+545,4,bone marrow,primary dendritic cells,6,6
+546,4,pancreas,pancreatic tumor,4,4
+547,4,pancreas,pancreatic tumor,4,4
+550,4,in vitro–differentiated cd8⁺ t cells from hpscs,blood,6,6
+550,5,"esi017 tko8 eso hpsc (rag1/rag2/b2m triple knockout, tcr-transduced)",no,6,6
+551,4,in vitro–differentiated cd8⁺ t cells from hpscs,blood,6,6
+551,5,esi017 wt hpsc,no,6,6
+574,4,skin,tumor,1,3
+575,4,colon,tumor,4,3
+576,4,embryo,mef+sv40,4,6
+576,5,mef+sv40,no,1,6
+577,4,embryo,mef+sv40,4,6
+577,5,mef+sv40,no,1,6
+598,4,lung,no,1,6
+605,4,prostate,tissue,6,3
+606,4,prostate,tissue,6,3
+611,4,tongue,no,6,6
+612,4,tongue,no,3,6
+613,4,head and neck,tumor,3,3
+614,4,head and neck,tumor,3,3
+617,4,kidney,"kidney, renal clear cell carcinoma",1,5
+618,4,kidney,"kidney, renal clear cell carcinoma",1,5
+619,4,kidney,"kidney, renal clear cell carcinoma",1,5
+620,4,kidney,"kidney, renal clear cell carcinoma",1,5
+621,4,kidney,"kidney, renal clear cell carcinoma",1,5
+622,4,kidney,"kidney, renal clear cell carcinoma",1,5
+623,4,kidney,"kidney, renal clear cell carcinoma",1,5
+624,4,kidney,"kidney, renal clear cell carcinoma",1,5
+625,4,kidney,"kidney, renal clear cell carcinoma",1,5
+626,4,kidney,"kidney, renal clear cell carcinoma",1,5
+627,4,kidney,"kidney, renal clear cell carcinoma",1,5
+628,4, ,"kidney, renal clear cell carcinoma",6,5
+629,4,prostate,prostate tumor,4,4
+630,4,prostate,prostate tumor,4,4
+631,4,prostate,myc-cap tumor,1,6
+631,5,myc-cap,no,6,6
+632,4,prostate,myc-cap tumor,1,6
+633,4,prostate organoid,mouse prostate organoid,4,4
+634,4,prostate organoid,mouse prostate organoid,4,4
+637,4,bone marrow,blood,1,6
+641,4,breast,breast cancer tissue,4,4
+642,4,breast,breast cancer tissue,4,4
+645,4,prostate,"prostate tumor, lymph node",5,5
+646,4,prostate,"prostate tumor, primary",5,4
+651,3,homo sapiens,mus musculus,1,6
+651,4,lymph node ,lymph node metastasis,4,4
+652,3,homo sapiens,mus musculus,1,6
+657,2,crispr screen,crispr-seq,6,2
+657,4,soft tissue,synovial sarcoma,4,4
+658,2,crispr screen,crispr-seq,6,6
+658,4,soft tissue,synovial sarcoma,4,4
+659,4,soft tissue,no,4,6
+660,4,soft tissue,no,4,6
+661,4,soft tissue,synovial sarcoma,4,4
+662,4,soft tissue,synovial sarcoma,4,4
+663,4,soft tissue,synovial sarcoma,4,4
+664,4,soft tissue,synovial sarcoma,4,4
+665,4,bone marrow,human bone marrow biopsy,4,4
+666,4,bone marrow,human bone marrow biopsy,1,4
+667,5,n1_4172,n4172,1,2
+668,5,n6_4172,no,6,6
+669,2,cut&tag,cut&tag-seq,2,2
+669,5,ey,no,6,6
+670,2,cut&tag,cut&tag-seq,2,2
+670,5,ey,no,6,6
+671,4,tongue epithelium,tongue epithelium primary culture,1,4
+671,5,eyh2_4028,no,6,6
+672,5,n2_4172,no,6,6
+673,4,tongue?,tongue epithelium,4,4
+677,4,pancreas,primary pancreatic ductal adenocarcinoma,4,4
+678,4,pancreas,primary pancreatic ductal adenocarcinoma,4,4
+680,4,breast,no,1,6
+684,2,scrna-seq,scmultiome,6,6
+687,4,lung,lung adenocarcinoma,4,4
+688,4,lung,lung adenocarcinoma,4,4
+691,4,breast,ffpe,6,6
+692,4,breast,ffpe,6,6
+693,4,kidney,embryonic kidney,4,4
+694,4,kidney,embryonic kidney,4,4
+701,4,gastrointestinal tract,no,4,6
+702,4,gastrointestinal tract,no,4,6
+707,4,skin,no,1,6
+708,4,skin,no,1,6
+710,4,prostate,no,4,6
+711,4,prostate,no,4,6
+712,4,prostate,no,4,6
+713,4,prostate,no,4,6
+714,4,prostate,no,4,6
+715,4,prostate,no,1,6
+716,4,prostate,no,1,6
+718,4,prostate,no,4,6
+719,4,prostate,no,1,6
+721,4,intestine,intestinal stem cells,1,4
+722,4,intestine,intestinal stem cells,1,4
+724,4,prostate,primary tumor castrate recurrent,1,6
+725,2,qrt-pcr array,microarray,3,6
+725,5,tramp-c2,no,6,6
+726,2,qrt-pcr array,microarray,3,6
+726,5,tramp-c2,no,6,6
+727,4,lung,non-small cell lung cancer cells,4,4
+728,4,lung,non-small cell lung cancer cells,4,4
+729,4,lung,non-small cell lung cancer cells,4,4
+730,4,lung,non-small cell lung cancer cells,4,4
+732,4,lung,no,1,6
+735,4,prostate,no,4,6
+735,5,lncap-apipc,lncap-apipc human prostate tumor cell line,1,4
+736,4,prostate,no,4,6
+736,5,lncap-shar/patk,lncap-shar/patk  human prostate tumor cell line,1,2

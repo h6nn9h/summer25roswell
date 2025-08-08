@@ -1,0 +1,176 @@
+row,column_idx,truth_value,llm_value,mismatch_value
+465,2,crispr-cas9 sgrna screen,crispr-seq,3
+50,4,melanoma tumor sample/ skin?,skin,3
+95,5,,no,6
+223,5,oci-aml2 cells,oci-aml2,2
+59,5,hoxb8 cell,hoxb8,2
+82,5,myc-cap cells,myc-cap,2
+501,4,kidney,renal cell carcinoma,4
+79,4,abdomen,abdominal wall tissue,4
+524,5,primary mouse mammary fibroblasts,primary mouse mammary fibroblasts line,2
+500,4,kidney,renal cell carcinoma,4
+152,4,prostate,normal prostate,6
+678,4,pancreas,primary pancreatic ductal adenocarcinoma,4
+390,4,prostate,prostate cancer,4
+665,4,bone marrow,human bone marrow biopsy,4
+235,4,lung,lung adenocarcinoma,4
+374,4,prostate,prostate cancer,4
+193,4,umbilical vein endothelium,blood,6
+711,4,prostate,prostate cancer,4
+54,4,prostate,prostate cancer,4
+38,4,prostate carcinoma,prostate,3
+86,5,myc-cap cells,myc-cap,2
+271,2,rna-seq/ plumage,rna-seq,5
+405,5,mouse lung squamous cell carcinoma cell line,lung squamous cell carcinoma cell line,2
+415,4,pancrease,pancreatic ductal adenocarcinoma,4
+661,4,soft tissue,synovial sarcoma,4
+188,4,esophagus,esophageal squamouse carcinoma,4
+247,4,soft tissue/ bone,lung,6
+236,4,lung,lung adenocarcinoma,4
+225,4,lung,small cell lung cancer,4
+202,5,moc1,no,6
+306,4,peripheral nervous system,nerve sheath,4
+326,4,prostate,prostate cancer organoid,4
+282,4,prostate,prostate epithelial cell line,4
+134,4,brain,hippocampus,4
+146,5,no,cebpa/csf3r leukemia cells,6
+551,4,in vitro–differentiated cd8⁺ t cells from hpscs,blood,6
+115,5,molm13 cells,molm13,2
+349,4,bladder xenograft,bladder,3
+280,4,prostate,prostate epithelial cell line,4
+328,5,aspc1,aspc-1,2
+544,4,bone marrow,primary dendritic cells,6
+394,4,bladder,bladder cancer,4
+315,5,lncap-c42 (ar therapy resistant),lncap-c42,3
+662,4,soft tissue,synovial sarcoma,4
+170,4,blood,monocyte-derived macrophages,6
+49,4,melanoma tumor sample/ skin?,skin,3
+725,2,qrt-pcr array,rt-pcr,3
+276,4,lymph nodes,patient derived xenograft,6
+476,4,peritoneal fluid,blood,6
+257,4,intestine,colon,4
+310,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3
+543,4,bone marrow,primary dendritic cells,6
+147,5,no,cebpa/csf3r leukemia cells,6
+129,4,multiple myeloma,bone marrow,6
+714,4,prostate,prostate cancer,4
+284,2,exome-seq,other,6
+639,4,prostate,prostate cancer,4
+35,4,prostate carcinoma,prostate,3
+150,4,prostate,prostate cancer,6
+590,5,rpm rr112,no,6
+439,4,blood / bone marrow,blood,5
+677,4,pancreas,primary pancreatic ductal adenocarcinoma,4
+611,4,tongue,head and neck,6
+276,5,no,mcl96069,6
+136,4,lung,lung tumor,4
+100,4,prostate,primary mouse prostate organoid culture,4
+486,2,cite-seq,sctcr-seq,6
+641,4,breast,breast cancer tissue,4
+464,4,blood,whole blood,4
+198,4,umbilical vein endothelium,blood,6
+197,5,ec-109,no,6
+331,2,rna-seq; scrna-seq; atac-seq; cut&tag; cut&run,rna-seq,5
+371,4,ovary,ovarian tumor,4
+339,4,colon/ large intestine,colon,5
+60,5,hoxb8 cell,hoxb8,2
+101,4,prostate,primary mouse prostate organoid culture,4
+510,4,bone marrow,bone marrow cells,2
+347,5,kasumi-1 cells,kasumi-1,2
+177,5,lncap,lncap-rb1/tp53 double knockout,4
+526,4,breast,mammary fat pad,4
+43,4,blood,bone marrow,6
+657,4,soft tissue,synovial sarcoma,4
+67,4,intestine,small intestine,4
+93,5,kp cells,kp lung tumor cells,2
+498,4,prostate ,prostate cancer,4
+166,4,ovary,ovarian cancer,4
+506,4,tubular adenoma,colon,3
+658,2,crispr screen,crispr-seq,6
+369,2,cite-seq,sctcr-seq,6
+151,4,prostate,prostate cancer,6
+167,4,ovary,ovarian cancer,4
+190,2,cite-seq,scrna-seq,6
+615,2,rna-seq,scrna-seq,6
+283,2,exome-seq,other,6
+280,2,bisulfite-seq/ methyl-capture,methylc-seq,5
+127,4,breast carcinoma,breast,3
+181,4,prostate,prostate cancer,4
+70,5,d459,d458,6
+436,4,subcutaneous tumor,s.c. tumor,2
+301,5,primary xenograft cwr22,cwr22,3
+717,4,prostate,prostate cancer,4
+80,4,splenocytes and lymph nodes,lymphocytes,6
+640,4,prostate,prostate cancer,4
+288,4,intestine,intestinal tissue,2
+345,2,rna-seq;,rna-seq,2
+113,5,molm13 cells,molm13,2
+437,4,blood,peripheral blood mononuclear cells,4
+317,4,blood/ spleen,blood,5
+410,5,no,lucap 78,6
+419,2,cite-seq,scrna-seq,6
+194,4,unclear,prostate,6
+525,4,breast,mammary fat pad,4
+78,4,prostate,prostate cancer,4
+305,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3
+411,4,prostate,prostate cancer patient derived xenograft,4
+417,4,human glioblastoma pdx models,brain,3
+370,4,ovary,ovarian tumor,4
+157,4,prostate,prostate epithelium-derived cells,4
+459,4,bone marrow,blood,6
+128,4,blood/plasma cell,bone marrow,6
+279,4,prostate,prostate epithelial cell line,4
+395,4,bladder,bladder cancer,4
+281,4,prostate,prostate epithelial cell line,4
+354,4,ovary,ovarian tumor,4
+400,4,blood,in vitro t cell culture,6
+190,4,bladder,bladder tissue,2
+5,2,snrna-seq,scrna-seq,6
+550,4,in vitro–differentiated cd8⁺ t cells from hpscs,blood,6
+275,5,no,mcl96069,6
+98,5,lncap/ar cells utilized to induce tumor in scid mice,lncap/ar,3
+591,5,rpm rr112,no,6
+454,4,breast,breast cancer,4
+713,4,prostate,prostate cancer,4
+138,4,lung,lung tumor,4
+225,5,hci- h69,nci-h69,3
+404,5,mouse lung squamous cell carcinoma cell line,lung squamous cell carcinoma cell line,2
+177,4,prostate,prostate cancer,4
+216,2,"scbcr-seq
+          ",scrna-seq,6
+126,4,breast carcinoma,breast,3
+40,4,breast,breast tumor,2
+309,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3
+94,4,subcutaneously injected allograft tumor,subcutaneously injected tumor,3
+309,4,peripheral nervous system,nerve sheath,4
+201,4,breast,breast cancer,4
+628,4, ,kidney,6
+307,4,peripheral nervous system,nerve sheath,4
+355,2,scrna-seq; scatac-seq,scrna-seq,5
+694,4,kidney,embryonic kidney,4
+467,4,breast,breast cancer,4
+74,4,tumor inflitrating lymphocytes,blood,6
+478,4,prostate,prostate cancer,4
+342,4,bladder,bladder cancer,4
+9,2,scrna-seq; vdj-seq,scrna-seq,5
+92,5,kp cells,kp lung tumor cells,2
+278,4,prostate,prostate epithelial cell line,4
+99,3,synthetic construct; homo sapiens and murine mouse model,homo sapiens,5
+189,4,esophagus,adjacent normal esophageal tissue,4
+42,4,kidney,embryonic kidney,4
+306,5,suz12 isogenic m3 mpnst cells,m3 mpnst cells,3
+656,4,ovarian cancer,ovarian tumor,2
+494,4,colon tumor,colon,3
+436,5,mc38,no,6
+484,5,pymt,no,6
+148,4,lung,in vitro cultured cell line,6
+348,5,no,t24,6
+657,2,crispr screen,crispr-seq,6
+15,4,prostate,prostate cancer,2
+602,4,lung,"lung tissue, archival ffpe",5
+687,4,lung,lung adenocarcinoma,4
+483,5,pymt,no,6
+591,4,periaortic lymph node met,prostate,6
+200,4,breast,breast cancer,4
+211,4,sub cutaneous tumors (xenograft),cd45+ tumor infiltrating cells,6
+72,4,tumor inflitrating lymphocytes,blood,6

@@ -1,0 +1,15 @@
+Prompting Method,File,Accuracy,Macro F1,Macro Precision,Macro Recall,Total Samples,Correct Predictions,Most Missed Label #,Most Accurate Label #,Most Missed Column #,Most Accurate Column #
+CoT + Few Shot Variations,result_CoT_fewshot1.csv,0.506,0.29,0.357,0.314,174,88,6,4,4,4
+CoT + Few Shot Variations,original_result_CoT_fewshot2.csv,0.454,0.331,0.397,0.407,174,79,6,4,4,4
+CoT + Few Shot Variations,result_CoT_fewshot3.csv,0.466,0.342,0.396,0.37,174,81,6,4,4,4
+CoT + Few Shot Variations,result_CoT_fewshot4.csv,0.5,0.391,0.397,0.411,174,87,4,6,4,4
+Self-Consistency,result_SC3_fewshot.csv,0.557,0.424,0.428,0.432,174,97,4,4,4,4
+Self-Consistency,result_SC5_fewshot.csv,0.557,0.455,0.464,0.467,174,97,4,4,4,4
+Self-Consistency,result_SC10_fewshot.csv,0.598,0.467,0.475,0.478,174,104,4,4,4,4
+Self-Consistency,result_SC_low_variance_fewshot.csv,0.557,0.429,0.432,0.44,174,97,4,4,4,4
+Self-Consistency,result_SC_high_creativity_fewshot.csv,0.575,0.469,0.468,0.489,174,100,4,6,4,4
+Self-Consistency,result_SC_debate_fewshot.csv,0.184,0.153,0.218,0.237,174,32,4,3,4,4
+Role Prompting,result_role_journalreviewer.csv,0.546,0.407,0.434,0.412,174,95,3,4,4,4
+Role Prompting,result_role_dataauthor.csv,0.534,0.422,0.462,0.45,174,92,6,4,4,4
+Role Prompting,result_role_machinelearner.csv,0.466,0.393,0.413,0.435,174,81,4,4,4,4
+Role Prompting,result_role_nomenclaturecurator.csv,0.483,0.395,0.413,0.437,174,84,4,4,4,4
